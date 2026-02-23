@@ -3,7 +3,7 @@ import streamlit as st
 #Configuration de la page
 st.set_page_config(
     page_title = "IMC by Boubou SY",
-    layout = "wide"
+    layout = "centered"
 )
 
 #PARTIE SIDEBAR
