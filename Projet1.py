@@ -1,5 +1,11 @@
 import streamlit as st
 
+#Configuration de la page
+st.set_page_config(
+    page_title = "IMC by Boubou SY",
+    layout = "wide"
+)
+
 #PARTIE SIDEBAR
 with st.sidebar:
     with st.container(border=True):
