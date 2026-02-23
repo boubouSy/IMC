@@ -4,7 +4,7 @@ import streamlit as st
 with st.sidebar:
     with st.container(border=True):
         st.image("ah.jpg")
-    for _ in range(18):
+    for _ in range(16):
         st.write("")
     st.success("🏥 Votre santé est votre bien le plus précieux. Ne l'oubliez jamais ! ❤️‍🩹")
 
