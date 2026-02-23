@@ -4,6 +4,9 @@ import streamlit as st
 with st.sidebar:
     with st.container(border=True):
         st.image("ah.jpg")
+    for _ in range(15):
+        st.write("")
+    with st.success("De la part de votre serviteur Boubou SY ! 👋")
 
 with st.container(border=True):
     st.title("Calcul des IMC")
