@@ -1,5 +1,10 @@
 import streamlit as st
 
+#PARTIE SIDEBAR
+with st.sidebar:
+    with st.container(border=True):
+        st.image("ah.jpg")
+
 with st.container(border=True):
     st.title("Calcul des IMC")
 
