@@ -6,7 +6,7 @@ with st.sidebar:
         st.image("ah.jpg")
     for _ in range(18):
         st.write("")
-    st.success("De la part de votre serviteur Boubou SY ! 👋")
+    st.success("🏥 Votre santé est votre bien le plus précieux. Ne l'oubliez jamais ! ❤️‍🩹"
 
 with st.container(border=True):
     st.title("Calcul des IMC")
